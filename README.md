@@ -8,9 +8,12 @@ This project is using a fully automated Continuous Integration and Continuous De
 
 ##  Project Objective
 
-- Automate the entire build, containerization, and deployment process
-- Achieve zero-downtime deployments using ECS Blue/Green deployments
-- Utilize fully managed AWS services to ensure scalability, flexibility, and reliability
+- Create a container image and pushed it to Amazon ECR.
+- Deploy containers on Amazon ECS (Fargate).
+- Integrate CodePipeline with CodeBuild for CI/CD.
+- Use CloudWatch for logging and ECS task monitoring.
+
+
 
 ---
 
