@@ -13,18 +13,8 @@ This project is using a fully automated Continuous Integration and Continuous De
 - Integrate CodePipeline with CodeBuild for CI/CD.
 - Use CloudWatch for logging and ECS task monitoring.
 
-
-
 ---
 
-## 👤 My Role
-
-- Built Docker container image for the application and pushed to Amazon ECR.
-- Deployed containerized application on Amazon ECS (Fargate) with proper task definition and service configuration.
-- Integrated CodePipeline, CodeBuild, and CodeDeploy to automate builds and deployments.
-- Configured CloudWatch for container log monitoring and service health monitoring.
-
----
 
 ## 🧰 AWS Services Used
 
@@ -34,7 +24,6 @@ This project is using a fully automated Continuous Integration and Continuous De
 | **Amazon ECR** | Docker image repository |
 | **AWS CodePipeline** | CI/CD orchestration |
 | **AWS CodeBuild** | Docker image build automation |
-| **AWS CodeDeploy** | Blue/Green deployment management |
 | **Amazon CloudWatch** | Logging and monitoring |
 | **AWS IAM** | Access control for build and deployment roles |
 
