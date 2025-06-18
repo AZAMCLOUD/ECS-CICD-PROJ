@@ -18,12 +18,12 @@ This project is using a fully automated Continuous Integration and Continuous De
 
 ## 🧰 AWS Services Used
 
- **Amazon ECS (Fargate)** :  Container orchestration 
- **Amazon ECR** : Docker image repository 
- **AWS CodePipeline** : CI/CD orchestration 
- **AWS CodeBuild** : Docker image build automation 
- **Amazon CloudWatch** : Logging and monitoring 
- **AWS IAM** : Access control for build and deployment roles 
+ - **Amazon ECS (Fargate)** :  Container orchestration 
+ - **Amazon ECR** : Docker image repository 
+ - **AWS CodePipeline** : CI/CD orchestration 
+ - **AWS CodeBuild** : Docker image build automation 
+ - **Amazon CloudWatch** : Logging and monitoring 
+ - **AWS IAM** : Access control for build and deployment roles 
 
 ---
 
