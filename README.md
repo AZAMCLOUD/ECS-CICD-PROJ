@@ -27,13 +27,8 @@ This project is using a fully automated Continuous Integration and Continuous De
 
 ---
 ## ECS DEPLOYMENT
-### Created a container image and pushed it to Amazon ECR
+### Created Amazon ECR To Store my Images
 
-- Built a Docker image of the application.
-
-- Managed version tagging for image uniqueness.
-
-- Successfully pushed the image to Amazon Elastic Container Registry (ECR).
 
 ### Deployed containers on Amazon ECS (Fargate)
 
@@ -63,44 +58,40 @@ This project is using a fully automated Continuous Integration and Continuous De
 
 ### Source Stage (GitHub)
 - Monitors source repository for changes.
-- Includes `Dockerfile`, `buildspec.yml`, and `appspec.yaml`.
+- Includes `Dockerfile`, `buildspec.yml`, and `index.html`.
 
 ### Build Stage (CodeBuild)
 - Builds Docker image from application source code.
 - Tags image with commit-based version.
 - Pushes image to Amazon ECR.
 - Dynamically generates `imagedefinitions.json`.
-- Packages `imagedefinitions.json` and `appspec.yaml` as build artifact.
+- Packages `imagedefinitions.json` as build artifact.
 
 ### Deploy Stage (CodeDeploy with ECS)
-- Uses `imagedefinitions.json` and `appspec.yaml` from build artifact.
+- Uses `imagedefinitions.json` from build artifact.
 - Registers new ECS task definition revision.
-- Performs Blue/Green deployment updating the ECS service.
+- Performs deployment updating the ECS service.
 
----
-
-## 📂 Key Files
-
+### Key Files
 | File | Purpose |
 |------|---------|
 | `Dockerfile` | Docker build instructions |
 | `buildspec.yml` | CodeBuild build configuration |
 | `imagedefinitions.json` | Image version information (generated in build) |
-| `appspec.yaml` | CodeDeploy deployment configuration |
+| `index.html` | Application code used in Dockerfile |
 
 ---
 
-## 🔍 Monitoring
+## Monitoring
 
 - CloudWatch Logs configured for ECS container logs.
 - CloudWatch metrics used to monitor ECS service health and deployment status.
 
 ---
 
-## 🚀 Outcome
+## Outcome
 
 - Achieved fully automated container deployments.
-- Successfully implemented Blue/Green deployments ensuring zero downtime.
 - Full build → deploy → monitor pipeline using fully managed AWS services.
 
 ---
