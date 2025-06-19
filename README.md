@@ -113,6 +113,13 @@ This project is using a fully automated Continuous Integration and Continuous De
 - CloudWatch Logs configured for ECS container logs.
 - CloudWatch metrics used to monitor ECS service health and deployment status.
 
+![Monitoring](/screenshots/Screenshots(15).png)
+
+![Monitoring](/screenshots/Screenshots(14).png)
+
+![Monitoring](/screenshots/Screenshots(13).png)
+
+
 ---
 
 ## Outcome
