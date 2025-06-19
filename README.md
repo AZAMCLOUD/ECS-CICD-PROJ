@@ -27,13 +27,38 @@ This project is using a fully automated Continuous Integration and Continuous De
 
 ---
 ## ECS DEPLOYMENT
+### Created a container image and pushed it to Amazon ECR
+
+- Built a Docker image of the application.
+
+- Managed version tagging for image uniqueness.
+
+- Successfully pushed the image to Amazon Elastic Container Registry (ECR).
+
+### Deployed containers on Amazon ECS (Fargate)
+
+- Configured an ECS Cluster on Fargate.
+
+- Managed ECS task definitions and revisions.
+
+- Deployed the application containers using ECS Services and Load Balancers.
 
 
 ## CI/CD SETUP
 
+- Integrated CodePipeline with CodeBuild for CI/CD
+
+- Configured CodePipeline to trigger on GitHub commits.
+
+- Used CodeBuild to build Docker images and generate deployment artifacts.
+
+- Implemented ECS deployments using imagedefinitions.json.
 
 
-## 🔧 Pipeline Workflow
+
+
+
+##  Pipeline Workflow
 
 ### Source Stage (GitHub)
 - Monitors source repository for changes.
