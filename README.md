@@ -41,6 +41,9 @@ This project is using a fully automated Continuous Integration and Continuous De
 
   ![ECS DEPLOYMENT](/screenshots/Screenshot(3).png)
 
+  ![ECS DEPLOYMENT](/screenshots/Screenshot(1).png)
+
+
 ---
 
 ## CI/CD Setup
