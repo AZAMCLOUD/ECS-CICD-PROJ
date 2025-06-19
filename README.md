@@ -16,7 +16,7 @@ This project is using a fully automated Continuous Integration and Continuous De
 ---
 
 
-## 🧰 AWS Services Used
+##  AWS Services Used
 
  - **Amazon ECS (Fargate)** :  Container orchestration 
  - **Amazon ECR** : Docker image repository 
@@ -26,6 +26,12 @@ This project is using a fully automated Continuous Integration and Continuous De
  - **AWS IAM** : Access control for build and deployment roles 
 
 ---
+## ECS DEPLOYMENT
+
+
+## CI/CD SETUP
+
+
 
 ## 🔧 Pipeline Workflow
 
