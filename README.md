@@ -68,6 +68,16 @@ This project is using a fully automated Continuous Integration and Continuous De
 - Monitors source repository for changes.
 - Includes `Dockerfile`, `buildspec.yml`, and `index.html`.
 
+  ### Key Files
+| File | Purpose |
+|------|---------|
+| `Dockerfile` | Docker build instructions |
+| `buildspec.yml` | CodeBuild build configuration |
+| `imagedefinitions.json` | Image version information (generated in build) |
+| `index.html` | Application code used in Dockerfile |
+
+
+
 ### Build Stage (CodeBuild)
 - Builds Docker image from application source code.
 - Tags image with commit-based version.
@@ -80,13 +90,6 @@ This project is using a fully automated Continuous Integration and Continuous De
 - Registers new ECS task definition revision.
 - Performs deployment updating the ECS service.
 
-### Key Files
-| File | Purpose |
-|------|---------|
-| `Dockerfile` | Docker build instructions |
-| `buildspec.yml` | CodeBuild build configuration |
-| `imagedefinitions.json` | Image version information (generated in build) |
-| `index.html` | Application code used in Dockerfile |
 
 ---
 
