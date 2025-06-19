@@ -29,6 +29,8 @@ This project is using a fully automated Continuous Integration and Continuous De
 ## ECS Deployment
 ### Created Amazon ECR To Store my Images
 
+![ECS DEPLOYMENT](/screenshots/Screenshots(3).png)
+
 
 ### Deployed containers on Amazon ECS (Fargate)
 
@@ -38,12 +40,10 @@ This project is using a fully automated Continuous Integration and Continuous De
 
 - Deployed the application containers using ECS Services and Load Balancers.
 
+![ECS DEPLOYMENT](/screenshots/Screenshots(1).png)
 
-  ![ECS DEPLOYMENT](/screenshots/Screenshots(3).png)
-
-  ![ECS DEPLOYMENT](/screenshots/Screenshots(1).png)
-
-  ![ECS DEPLOYMENT](/screenshots/Screenshots(2).png)
+![ECS DEPLOYMENT](/screenshots/Screenshots(2).png)
+  
 ---
 
 ## CI/CD Setup
@@ -76,6 +76,11 @@ This project is using a fully automated Continuous Integration and Continuous De
 | `imagedefinitions.json` | Image version information (generated in build) |
 | `index.html` | Application code used in Dockerfile |
 
+![Pipeline Workflow](/screenshots/Screenshots(12).png)
+
+![Pipeline Workflow](/screenshots/Screenshots(11).png)
+
+![Pipeline Workflow](/screenshots/Screenshots(10).png)
 
 
 ### Build Stage (CodeBuild)
@@ -85,11 +90,21 @@ This project is using a fully automated Continuous Integration and Continuous De
 - Dynamically generates `imagedefinitions.json`.
 - Packages `imagedefinitions.json` as build artifact.
 
+![Pipeline Workflow](/screenshots/Screenshots(9).png)
+  
+![Pipeline Workflow](/screenshots/Screenshots(8).png)
+
+
 ### Deploy Stage (CodeDeploy with ECS)
 - Uses `imagedefinitions.json` from build artifact.
 - Registers new ECS task definition revision.
 - Performs deployment updating the ECS service.
 
+![Pipeline Workflow](/screenshots/Screenshots(6).png)
+
+![Pipeline Workflow](/screenshots/Screenshots(7).png)
+
+![Pipeline Workflow](/screenshots/Screenshots(4).png)
 
 ---
 
