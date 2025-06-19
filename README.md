@@ -43,7 +43,7 @@ This project is using a fully automated Continuous Integration and Continuous De
 
   ![ECS DEPLOYMENT](/screenshots/Screenshots(1).png)
 
-  ![ECS DEPLOYMENT](/screenshots/Screenshot(2).png)
+  ![ECS DEPLOYMENT](/screenshots/ScreenshotS(2).png)
 
 ---
 
@@ -57,7 +57,7 @@ This project is using a fully automated Continuous Integration and Continuous De
 
 - Implemented ECS deployments using imagedefinitions.json.
 
-   ![CICD SETUP](/screenshots/Screenshot(5).png)
+   ![CICD SETUP](/screenshots/ScreenshotS(5).png)
 
 ---
 
