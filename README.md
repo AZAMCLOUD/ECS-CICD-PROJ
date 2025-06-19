@@ -43,6 +43,7 @@ This project is using a fully automated Continuous Integration and Continuous De
 
 - Deployed the application containers using ECS Services and Load Balancers.
 
+---
 
 ## CI/CD SETUP
 
@@ -54,7 +55,7 @@ This project is using a fully automated Continuous Integration and Continuous De
 
 - Implemented ECS deployments using imagedefinitions.json.
 
-
+---
 
 
 
