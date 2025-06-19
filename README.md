@@ -39,7 +39,7 @@ This project is using a fully automated Continuous Integration and Continuous De
 - Deployed the application containers using ECS Services and Load Balancers.
 
 
-  ![ECS DEPLOYMENT](/Screenshots/Screenshot3.png)
+  ![ECS DEPLOYMENT](/Screenshots/Screenshot(3).png)
 
 ---
 
