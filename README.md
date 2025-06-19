@@ -95,7 +95,7 @@ This project is using a fully automated Continuous Integration and Continuous De
 ![Pipeline Workflow](/screenshots/Screenshots(8).png)
 
 
-### Deploy Stage (CodeDeploy with ECS)
+### Deploy Stage 
 - Uses `imagedefinitions.json` from build artifact.
 - Registers new ECS task definition revision.
 - Performs deployment updating the ECS service.
