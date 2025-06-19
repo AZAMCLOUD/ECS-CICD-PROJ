@@ -26,7 +26,7 @@ This project is using a fully automated Continuous Integration and Continuous De
  - **AWS IAM** : Access control for build and deployment roles 
 
 ---
-## ECS DEPLOYMENT
+## ECS Deployment
 ### Created Amazon ECR To Store my Images
 
 
@@ -40,7 +40,7 @@ This project is using a fully automated Continuous Integration and Continuous De
 
 ---
 
-## CI/CD SETUP
+## CI/CD Setup
 
 - Integrated CodePipeline with CodeBuild for CI/CD
 
